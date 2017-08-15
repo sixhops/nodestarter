@@ -1,0 +1,31 @@
+{
+  "name": "nodestarter",
+  "version": "1.0.0",
+  "description": "A basic webserver for front-end dev/test.",
+  "engines": {
+    "node": "6.11.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "node_modules/eslint/bin/eslint.js js --fix; exit 0",
+    "lint:css": "node_modules/csslint/cli.js css/; exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixhops/nodestarter.git"
+  },
+  "author": "Steven Peters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixhops/nodestarter/issues"
+  },
+  "homepage": "https://github.com/sixhops/nodestarter#readme",
+  "dependencies": {
+    "csslint": "^1.0.5",
+    "eslint": "^4.4.1",
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0"
+  }
+}
