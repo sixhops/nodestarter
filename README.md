@@ -15,7 +15,9 @@ I wanted a tiny web server that I could use for testing web apps locally instead
 Fork the repo to your account. Clone it locally. Start making your changes. The package.json file defines the following scripts for use with the npm command:
 
 `npm start`: Launches the server on port 3000 and listens for requests.
+
 `npm lint:js`: Lints your JavaScript files in the app folder
+
 `npm lint:css`: Lints your CSS files in the app folder
 
 ## License
